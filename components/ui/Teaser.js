@@ -103,7 +103,7 @@ export function TeaserContent({ childToParent }) {
         >
           Time to post your prediction
         </h3>
-        <p>Sign up for early updates on praline.ai.</p>
+        <p>Sign up for early updates on contentradar.ai.</p>
       </div>
       {/* <Tabs>
         <TabPane title="Basic">

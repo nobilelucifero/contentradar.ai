@@ -17,8 +17,13 @@ export function Navbar({ children, message }) {
             items-center
           "
         >
-          <Image width={32} height={32} src="/praline-logo.svg" alt=" "></Image>
-          &nbsp; praline.ai
+          <Image
+            width={32}
+            height={32}
+            src="/contentradar-logo.svg"
+            alt=" "
+          ></Image>
+          &nbsp; contentradar.ai
         </Link>
       </Section>
     </header>

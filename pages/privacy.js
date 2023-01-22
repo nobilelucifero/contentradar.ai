@@ -15,8 +15,8 @@ export default function PrivacyPolicy() {
   return (
     <div>
       <Head>
-        <title>Privacy Policy - Praline.ai</title>
-        <meta name="description" content="Praline.ai Privacy Policy" />
+        <title>Privacy Policy - contentradar.ai</title>
+        <meta name="description" content="contentradar.ai Privacy Policy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -28,19 +28,19 @@ export default function PrivacyPolicy() {
         <ContentBlock>
           <H2>1. Responsible for data processing</H2>
           <P>
-            Praline AI GbR is responsible within the meaning of Article 4 Z 7
-            GDPR. You can find at:
+            ContentRadar AI GbR is responsible within the meaning of Article 4 Z
+            7 GDPR. You can find at:
           </P>
           <P>
             Schönhauser Allee 43 <br />
             10435 Berlin <br />
             Germany <br />
-            <a className="underline" href="mailto:katia@praline.ai">
-              katia@praline.ai
+            <a className="underline" href="mailto:katia@contentradar.ai">
+              katia@contentradar.ai
             </a>
           </P>
           <H3>Representation</H3>
-          <P>Katia Yakovleva, Riccardo Buzzotta and Daniel Baumann</P>
+          <P>Katia Yakovleva and Riccardo Buzzotta.</P>
 
           <H3>Data protection officer</H3>
           <P>
@@ -54,12 +54,12 @@ export default function PrivacyPolicy() {
 
           <H3>Use of the website and contact</H3>
           <P>
-            a. Processing purposes: We operate the Praline.ai website to provide
-            information on Praline. To contact us, we provide a mail to link on
-            the website that you can use to send us messages. In principle, the
-            website can also be used without the processing of your personal
-            data, whereby no contact can be made without your provision of
-            personal data.
+            a. Processing purposes: We operate the contentradar.ai website to
+            provide information on ContentRadar. To contact us, we provide a
+            mail to link on the website that you can use to send us messages. In
+            principle, the website can also be used without the processing of
+            your personal data, whereby no contact can be made without your
+            provision of personal data.
           </P>
           <P>
             b. Categories of data: For the processing purposes mentioned above,
@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
             c. Legal basis: We process personal data on the basis of legitimate
             legal interests (Article 6 Paragraph 1 lit f GDPR) for the proper
             operation of the website and for the provision of information about
-            Praline.
+            ContentRadar.
           </P>
 
           <P>
@@ -89,12 +89,13 @@ export default function PrivacyPolicy() {
           </P>
 
           <H3>
-            Processing of personal data for sending information about Praline
+            Processing of personal data for sending information about
+            ContentRadar
           </H3>
           <P>
             a. Purposes of processing: Upon request, we will send information
-            about Praline by email. For this we need personal data, without this
-            data we cannot send the requested information.
+            about ContentRadar by email. For this we need personal data, without
+            this data we cannot send the requested information.
           </P>
 
           <P>
@@ -111,7 +112,7 @@ export default function PrivacyPolicy() {
             respective consent is revoked. A revocation means that we no longer
             process data from this point in time.
           </P>
-          <P>To revoke the consent, please contact us katia@praline.ai</P>
+          <P>To revoke the consent, please contact us katia@contentradar.ai</P>
 
           <H3>Legal Prosecution</H3>
           <P>
@@ -258,8 +259,8 @@ export default function PrivacyPolicy() {
         <ContentBlock>
           <H2>8. Use of cookies without consent</H2>
           <P>
-            8.1 Praline is entitled to store cookies on the end device of the
-            (informed) user, the sole purpose of which is to carry out or
+            8.1 ContentRadar is entitled to store cookies on the end device of
+            the (informed) user, the sole purpose of which is to carry out or
             facilitate the transmission of a message over an electronic
             communications network, or, to the extent strictly necessary, to
             carry out a service expressly requested by the participant or user

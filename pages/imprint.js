@@ -11,8 +11,8 @@ export default function Imprint() {
   return (
     <div>
       <Head>
-        <title>Imprint - Praline.ai</title>
-        <meta name="description" content="Praline.ai Imprint" />
+        <title>Imprint - contentradar.ai</title>
+        <meta name="description" content="contentradar.ai Imprint" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -24,12 +24,12 @@ export default function Imprint() {
         <ContentBlock>
           <H2>Operator and Contact</H2>
           <P>
-            Praline AI GbR <br />
+            ContentRadar AI GbR <br />
             Schönhauser Allee 43 <br />
             10435 Berlin <br />
             Germany Contact:{" "}
-            <a className="underline" href="mailto:katia@praline.ai">
-              katia@praline.ai
+            <a className="underline" href="mailto:katia@contentradar.ai">
+              katia@contentradar.ai
             </a>
           </P>
         </ContentBlock>
@@ -37,10 +37,11 @@ export default function Imprint() {
         <ContentBlock>
           <H2>GDPR</H2>
           <P>
-            Praline AI GbR (hereinafter &quot;PRALINE&quot;) is aware of the
-            importance to ensure the confidentiality and lawful processing of
-            your data when you visit our website. We use the terms set out in
-            the General Data Protection Regulation (&quot;GDPR&quot;):
+            ContentRadar AI GbR (hereinafter &quot;ContentRadar&quot;) is aware
+            of the importance to ensure the confidentiality and lawful
+            processing of your data when you visit our website. We use the terms
+            set out in the General Data Protection Regulation
+            (&quot;GDPR&quot;):
           </P>
           <P>
             <strong>Personal data</strong>: means any information relating to an

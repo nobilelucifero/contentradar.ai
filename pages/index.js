@@ -90,9 +90,9 @@ export default function Home() {
               The AI-powered workspace for content marketing
             </h1>
 
-            <p className="mb-8 text-lg xl:w-10/12">
-              Boost your content creation by 10x, be on top of your insights and
-              grow your business.
+            <p className="mb-8 text-lg xl:w-11/12">
+              Say hallo automation and data, grow your business by boosting
+              content creation by 10x.
             </p>
 
             {/* <a
@@ -154,9 +154,9 @@ export default function Home() {
           </div>
           <div className="lg:pl-8 lg:basis-3/5 mb-12 lg:mb-0">
             <Image
-              width={592}
-              height={592}
-              src={"/hero-transparent.png"}
+              width={1280}
+              height={1280}
+              src={"/app-dummy.png"}
               alt=" "
               priority="true"
             />

@@ -2,16 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Section } from "../components/Section";
-import PromoBanner from "../components/predict2023/PromoBanner";
+// import PromoBanner from "../components/predict2023/PromoBanner";
 
 export function Navbar({ children, message }) {
   return (
     <header>
-      {message && <PromoBanner />}
+      {/* {message && <PromoBanner />} */}
       <Section>
         <Link
           href="/"
           className="
+            text-lg
             font-bold
             flex
             items-center
@@ -20,7 +21,7 @@ export function Navbar({ children, message }) {
           <Image
             width={32}
             height={32}
-            src="/contentradar-logo.svg"
+            src="/contentradar2-logo.svg"
             alt=" "
           ></Image>
           &nbsp; contentradar.ai

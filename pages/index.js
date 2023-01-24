@@ -90,9 +90,11 @@ export default function Home() {
               The AI-powered workspace for content marketing
             </h1>
 
-            <p className="mb-8 text-lg xl:w-11/12">
-              Say hallo automation and data, grow your business by boosting
-              content creation by 10x.
+            <p className="mb-8 text-lg xl:w-[96%]">
+              {/* Say hi automation and data, grow your business by boosting
+              content creation by 10x. */}
+              Say hi to automation and data, boost your content creation by 10x
+              and grow your business.
             </p>
 
             {/* <a

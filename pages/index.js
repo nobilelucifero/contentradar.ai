@@ -56,7 +56,9 @@ export default function Home() {
     setCookie("hasEmail", "true", { maxAge: 60 * 60 * 24 * 365 });
 
     setTimeout(() => {
-      window.open(`https://tally.so/r/wvXL5d?email=${inputEl.current.value}`);
+      window.open(
+        `https://tally.so/r/wvXL5d?email=${inputEl.current.value}&source=contentradar`
+      );
       inputEl.current.value = "";
     }, 500);
   };

@@ -33,21 +33,21 @@ export default function CookieConsent() {
   return (
     <div
       className={`
-        fixed
+        sticky
         w-full
         p-4
         bottom-0
         left-0
         bg-white
-        flex flex-col md:flex-row items-center gap-2
         ${consent ? "hidden" : ""}
         `}
     >
-      <Wrapper>
+      <Wrapper className="flex flex-col md:flex-row items-center gap-2">
         {/* <p>This Site use cookie, please accept them if you want.</p> */}
-        <p className="0text-sm">
+        <p className="0text-sm grow">
           We use cookies to analyze site performance and deliver personalized
-          content. By clicking “Agree”, you consent to our Cookie Policy.
+          content.
+          <br /> By clicking “Agree”, you consent to our Cookie Policy.
         </p>
 
         <div className="flex gap-2">
@@ -64,7 +64,7 @@ export default function CookieConsent() {
           hover:bg-gray-100
           0dark:bg-gray-50
           0dark:hover:bg-gray-100
-          focus:outline-none
+          focus:outline-transparent
           focus:ring-4
           focus:ring-blue-300
           0dark:focus:ring-blue-500
@@ -85,7 +85,7 @@ export default function CookieConsent() {
           rounded-lg
           bg-gray-900
           hover:bg-gray-800
-          focus:outline-none
+          focus:outline-transparent
           focus:ring-4
           focus:ring-blue-300
           "

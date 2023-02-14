@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { setCookie, hasCookie } from "cookies-next";
+import { Wrapper } from "../Wrapper";
 
 export default function CookieConsent() {
   const [consent, setConsent] = useState(true);
@@ -32,25 +33,27 @@ export default function CookieConsent() {
   return (
     <div
       className={`
-        fixed bottom-6 0w-[calc(100%_-_48px)]
-        left-6 lg:left-[unset] right-6 pt-5 pb-2 px-6
-        rounded-lg
-        md:max-w-xs
-        bg-white ${consent ? "hidden" : ""}
-        shadow-xl
-        flex flex-col items-center
+        fixed
+        w-full
+        p-4
+        bottom-0
+        left-0
+        bg-white
+        flex flex-col md:flex-row items-center gap-2
+        ${consent ? "hidden" : ""}
         `}
     >
-      {/* <p>This Site use cookie, please accept them if you want.</p> */}
-      <p className="0text-sm">
-        We use cookies to analyze site performance and deliver personalized
-        content. By clicking “Agree”, you consent to our Cookie Policy.
-      </p>
+      <Wrapper>
+        {/* <p>This Site use cookie, please accept them if you want.</p> */}
+        <p className="0text-sm">
+          We use cookies to analyze site performance and deliver personalized
+          content. By clicking “Agree”, you consent to our Cookie Policy.
+        </p>
 
-      <div className="w-full grid grid-cols-2 gap-2 my-4 mb-0">
-        <button
-          onClick={(e) => denyCookie()}
-          className="
+        <div className="flex gap-2">
+          <button
+            onClick={(e) => denyCookie()}
+            className="
           text-gray-900
           font-bold
           tracking-wide
@@ -66,14 +69,14 @@ export default function CookieConsent() {
           focus:ring-blue-300
           0dark:focus:ring-blue-500
           "
-        >
-          Deny
-        </button>
-        <button
-          onClick={() => {
-            acceptCookie();
-          }}
-          className="
+          >
+            Deny
+          </button>
+          <button
+            onClick={() => {
+              acceptCookie();
+            }}
+            className="
           block px-4 py-3
           whitespace-nowrap
           text-white
@@ -86,12 +89,12 @@ export default function CookieConsent() {
           focus:ring-4
           focus:ring-blue-300
           "
-        >
-          Agree
-        </button>
-      </div>
+          >
+            Agree
+          </button>
+        </div>
 
-      <div className="w-full grid grid-cols-1">
+        {/* <div className="w-full grid grid-cols-1">
         <button
           onClick={(e) => {
             closeP();
@@ -115,7 +118,8 @@ export default function CookieConsent() {
         >
           Close
         </button>
-      </div>
+      </div> */}
+      </Wrapper>
     </div>
   );
 }

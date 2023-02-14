@@ -69,7 +69,7 @@ export default function Home() {
         <title>contentradar.ai</title>
         <meta
           name="description"
-          content="The AI-powered workspace for content marketing"
+          content="The AI-powered workspace for content creation"
         />
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -89,7 +89,7 @@ export default function Home() {
                 lg:w-11/12
               "
             >
-              The AI-powered workspace for content marketing
+              The AI-powered workspace for content creation
             </h1>
 
             <p className="mb-8 text-lg xl:w-[96%]">
@@ -160,7 +160,7 @@ export default function Home() {
             <Image
               width={1280}
               height={1280}
-              src={"/app-dummy.png"}
+              src={"/app-hero-2x.jpg"}
               alt=" "
               priority="true"
             />

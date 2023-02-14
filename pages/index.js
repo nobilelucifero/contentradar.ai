@@ -128,10 +128,7 @@ export default function Home() {
             </a> */}
             <form className="flex flex-col gap-2" onSubmit={subscribe}>
               <p>
-                <strong>Want to learn more?</strong>
-                <small className="block">
-                  Be one of the first to hear about us.
-                </small>
+                <strong>Want to learn more?</strong> Join our 1K+ waitlist
               </p>
               <label className="hidden font-bold mb-2" htmlFor="email-input">
                 Your email address
@@ -153,7 +150,7 @@ export default function Home() {
                 />
                 <Button type="submit">Get early access</Button>
               </div>
-              <p className="mt-2 text-sm">{message ? message : null}</p>
+              {message ? <p className="mt-2 text-sm">{message}</p> : ""}
             </form>
           </div>
           <div className="lg:pl-8 lg:basis-3/5 mb-12 lg:mb-0">

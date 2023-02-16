@@ -9,6 +9,7 @@ export default function Page({
   className,
   showPromoMessage,
   contentOnly,
+  hideNavBar,
 }) {
   return (
     // <div className="grid gap-4 grid-rows-[200px_minmax(900px,_1fr)_100px]">
@@ -16,17 +17,27 @@ export default function Page({
     // <div className="h-screen grid grid-rows-[auto_minmax(320px,_1fr)_auto]">
     // <div className={`h-screen grid grid-rows-[auto_min-content_auto] ${className}`}>
     // <div className="h-screen grid grid-rows-[auto_minmax(320px,_1fr)_auto]">
+
+    //   className={`grid ${
+    //     !hideNavBar ? "grid-rows-[1fr_auto]" : "grid-rows-[auto_1fr_auto]"
+    //   }  ${className}`}
+    // >
+    //   {!hideNavBar ? <Navbar message={showPromoMessage} /> : null}
+    //   <main className="flex min-w-full items-center mx-auto">
+    //     <Section className="lg:pt-24 lg:pb-12">{children}</Section>
+    //   </main>
+    //   <Footer />
+    //   <CookieConsent />
+
     <div
-      className={`${
-        !contentOnly && "min-h-screen"
-      } grid grid-rows-[auto_1fr_auto] ${className}`}
+      className={`relative grid grid-rows-[auto_1fr_auto] ${className || null}`}
     >
-      {!contentOnly && <Navbar message={showPromoMessage} />}
+      <Navbar message={showPromoMessage} />
       <main className="flex min-w-full items-center mx-auto">
-        <Section>{children}</Section>
+        <Section className="lg:pt-0 lg:pb-0">{children}</Section>
       </main>
-      {!contentOnly && <Footer hidden={contentOnly} />}
-      {!contentOnly && <CookieConsent hidden={contentOnly} />}
+      <Footer />
+      <CookieConsent />
     </div>
   );
 }

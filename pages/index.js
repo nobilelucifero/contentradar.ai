@@ -3,10 +3,15 @@ import React, { useRef, useState } from "react";
 import { setCookie, hasCookie } from "cookies-next";
 
 import Head from "next/head";
+// import Link from "next/Link";
 import Image from "next/image";
 
 import Page from "../layouts/page";
 import { Button } from "../components/Button";
+// import BlurryBlobs from "../components/BlurryBlobs";
+
+import AppPreview from "../public/app-preview.png";
+import Bg from "../public/bg.png";
 
 export default function Home() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -64,39 +69,50 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="relative min-h-screen bg-gray-100 overflow-x-hidden">
       <Head>
         <title>contentradar.ai</title>
         <meta
           name="description"
           content="The AI-powered workspace for content creation"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="favicon-light.png"
+          rel="icon"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          href="favicon-dark.png"
+          rel="icon"
+          media="(prefers-color-scheme: dark)"
+        />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
       </Head>
 
-      <Page showPromoMessage={true}>
+      {/* <BlurryBlobs /> */}
+      <Image className="absolute top-0 left-0 w-full" src={Bg} alt=" " />
+
+      <Page hideNavBar={true} showPromoMessage={true}>
         <div className="flex flex-col-reverse lg:flex-row items-center">
-          <div className="lr:pr-8 lg:basis-2/5">
+          <div className="0lr:pr-8 0lg:basis-2/4">
             <h1
               className="
-                text-3xl
+                text-5xl
+                leading-[112.5%]
                 font-bold
-                mb-2
+                mb-4
                 lg:w-11/12
               "
             >
-              The AI-powered workspace for content creation
+              Make content creation a breeze with AI
             </h1>
 
-            <p className="mb-8 text-lg xl:w-[96%]">
-              {/* Say hi automation and data, grow your business by boosting
-              content creation by 10x. */}
-              Say hi to automation and data, boost your content creation by 10x
-              and grow your business.
+            <p className="mb-8 text-2xl lg:w-[96%]">
+              Boost content creation by 10x, know and learn more from your
+              audience, grow your business.
             </p>
 
             {/* <a
@@ -153,11 +169,13 @@ export default function Home() {
               {message ? <p className="mt-2 text-sm">{message}</p> : ""}
             </form>
           </div>
-          <div className="lg:pl-8 lg:basis-3/5 mb-12 lg:mb-0">
+          <div className="0lg:pl-8 0lg:basis-2/4 mb-12 lg:mb-0 lg:w-1/2">
             <Image
-              width={1280}
-              height={1280}
-              src={"/app-hero-2x.jpg"}
+              className="block w-full lg:min-w-[960px] drop-shadow-xl	shadow-[0_0_0_1px_rgba(0,0,0,0.08)] rounded-lg border-[rgba(0,0,0,0.08)] border-1
+              "
+              // width={1280}
+              // height={1280}
+              src={AppPreview}
               alt=" "
               priority="true"
             />

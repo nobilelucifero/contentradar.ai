@@ -17,7 +17,16 @@ export default function PrivacyPolicy() {
       <Head>
         <title>Privacy Policy - contentradar.ai</title>
         <meta name="description" content="contentradar.ai Privacy Policy" />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="favicon-light.png"
+          rel="icon"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          href="favicon-dark.png"
+          rel="icon"
+          media="(prefers-color-scheme: dark)"
+        />
       </Head>
 
       <Page className="bg-gray-100">

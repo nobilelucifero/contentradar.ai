@@ -12,19 +12,14 @@ export function Navbar({ children, message }) {
         <Link
           href="/"
           className="
-            text-lg
+            text-xl
             font-bold
             flex
             items-center
           "
         >
-          <Image
-            width={32}
-            height={32}
-            src="/contentradar2-logo.svg"
-            alt=" "
-          ></Image>
-          &nbsp; contentradar.ai
+          <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
+          <span className="ml-[0.5ch]">contentradar.ai</span>
         </Link>
       </Section>
     </header>

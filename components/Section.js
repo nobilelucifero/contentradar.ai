@@ -1,10 +1,8 @@
 import { Wrapper } from "./Wrapper";
 
-export function Section(props) {
-  const { children } = props;
-
+export function Section({ children, className }) {
   return (
-    <div className="w-full py-6 lg:py-12">
+    <div className={`w-full py-6 lg:py-12 ${className || null}`}>
       <Wrapper>{children}</Wrapper>
     </div>
   );

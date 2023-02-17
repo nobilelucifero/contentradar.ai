@@ -10,7 +10,7 @@ import Page from "../layouts/page";
 import { Button } from "../components/Button";
 // import BlurryBlobs from "../components/BlurryBlobs";
 
-import AppPreview from "../public/app-preview.png";
+import AppPreview from "../public/app-preview-2.png";
 import Bg from "../public/bg.png";
 
 export default function Home() {

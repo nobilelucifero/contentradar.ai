@@ -28,17 +28,18 @@ export default function Page({
     //   </main>
     //   <Footer />
     //   <CookieConsent />
-
-    <div
-      className={`min-h-screen relative grid grid-rows-[auto_1fr_auto] ${
-        className || ""
-      }`}
-    >
-      <Navbar message={showPromoMessage} />
-      <main className="flex min-w-full items-center mx-auto">
-        <Section className="lg:pt-0 lg:pb-0">{children}</Section>
-      </main>
-      <Footer />
+    <div className="pb-24">
+      <div
+        className={`min-h-screen relative grid grid-rows-[auto_1fr_auto] ${
+          className || ""
+        }`}
+      >
+        <Navbar message={showPromoMessage} />
+        <main className="flex min-w-full items-center mx-auto">
+          <Section className="lg:pt-0 lg:pb-0">{children}</Section>
+        </main>
+        <Footer />
+      </div>
       <CookieConsent />
     </div>
   );

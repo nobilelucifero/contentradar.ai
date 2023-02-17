@@ -33,9 +33,11 @@ export default function CookieConsent() {
   return (
     <div
       className={`
-        sticky
+        fixed
         w-full
-        p-4
+        pt-4
+        pb-4
+        lg:p-4
         bottom-0
         left-0
         bg-white

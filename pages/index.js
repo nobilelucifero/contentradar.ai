@@ -93,15 +93,34 @@ export default function Home() {
       </Head>
 
       {/* <BlurryBlobs /> */}
-      <Image className="absolute top-0 left-0 w-full" src={Bg} alt=" " />
+      <Image
+        className="
+          block
+          absolute
+          top-0
+          left-0
+          0left-[1280px]
+          object-none
+          -translate-x-[1280px]
+          w-[2560px_!important] h-[1098px]
+          object
+          opacity-0 animate-fade-in
+        "
+        width={2560}
+        height={1098}
+        src={Bg}
+        alt=" "
+      />
 
       <Page hideNavBar={true} showPromoMessage={true}>
         <div className="flex flex-col-reverse lg:flex-row items-center">
           <div className="0lr:pr-8 0lg:basis-2/4">
             <h1
               className="
-                text-5xl
-                leading-[112.5%]
+                text-3xl
+                leading-[125%]
+                lg:text-5xl
+                lg:leading-[112.5%]
                 font-bold
                 mb-4
                 lg:w-11/12

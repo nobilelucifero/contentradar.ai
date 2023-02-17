@@ -30,7 +30,9 @@ export default function Page({
     //   <CookieConsent />
 
     <div
-      className={`relative grid grid-rows-[auto_1fr_auto] ${className || null}`}
+      className={`min-h-screen relative grid grid-rows-[auto_1fr_auto] ${
+        className || ""
+      }`}
     >
       <Navbar message={showPromoMessage} />
       <main className="flex min-w-full items-center mx-auto">

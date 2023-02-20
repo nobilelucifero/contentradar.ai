@@ -9,8 +9,21 @@ export function Navbar({ children, message }) {
     <header>
       {/* {message && <PromoBanner />} */}
       <Section>
-        <div className="flex gap-12">
-          <div className="grow">Logo</div>
+        <div className="flex gap-12 items-center">
+          <div className="grow">
+            <Link
+              href="/"
+              className="
+            text-xl
+            font-bold
+            flex
+            items-center
+          "
+            >
+              <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
+              <span className="ml-[0.5ch]">contentradar.ai</span>
+            </Link>
+          </div>
           <div className="flex gap-6 grow justify-end ">
             <div className="">
               <Link
@@ -93,18 +106,6 @@ export function Navbar({ children, message }) {
             </div>
           </div>
         </div>
-        <Link
-          href="/"
-          className="
-            text-xl
-            font-bold
-            flex
-            items-center
-          "
-        >
-          <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
-          <span className="ml-[0.5ch]">contentradar.ai</span>
-        </Link>
       </Section>
     </header>
   );

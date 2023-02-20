@@ -21,7 +21,9 @@ export function Navbar({ children, message }) {
           "
             >
               <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
-              <span className="ml-[0.5ch]">contentradar.ai</span>
+              <span className="sr-only lg:not-sr-only ml-[0.5ch]">
+                contentradar.ai
+              </span>
             </Link>
           </div>
           <div className="flex gap-4 lg:gap-6 grow justify-end ">

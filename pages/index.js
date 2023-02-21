@@ -129,7 +129,7 @@ export default function Home() {
               Make content creation a breeze with AI
             </h1>
 
-            <p className="mb-8 text-2xl lg:w-[96%]">
+            <p className="mb-8 text-2xl lg:w-[94%]">
               Boost content creation by 10x, learn more from your audience, grow
               your business.
             </p>

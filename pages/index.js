@@ -114,7 +114,7 @@ export default function Home() {
 
       <Page hideNavBar={true} showPromoMessage={true}>
         <div className="flex flex-col-reverse lg:flex-row items-center">
-          <div className="0lr:pr-8 0lg:basis-2/4">
+          <div className="0lr:pr-8 lg:basis-2/4">
             <h1
               className="
                 text-3xl
@@ -190,7 +190,7 @@ export default function Home() {
           </div>
           <div className="0lg:pl-8 0lg:basis-2/4 mb-12 lg:mb-0 lg:w-1/2">
             <Image
-              className="block w-full lg:min-w-[960px] drop-shadow-xl	shadow-[0_0_0_1px_rgba(0,0,0,0.08)] rounded-lg border-[rgba(0,0,0,0.08)] border-1
+              className="block w-full xl:min-w-[112.5%] 2xl:min-w-[125%] drop-shadow-xl h-auto	shadow-[0_0_0_1px_rgba(0,0,0,0.08)] rounded-lg border-[rgba(0,0,0,0.08)] border-1
               "
               // width={1280}
               // height={1280}

@@ -19,6 +19,7 @@ export function Navbar({ children, message }) {
             flex
             items-center
           "
+              title="ContentRadar.ai"
             >
               <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
               <span className="sr-only lg:not-sr-only ml-[0.5ch]">
@@ -84,7 +85,7 @@ export function Navbar({ children, message }) {
             </div>
             <div className="">
               <Link
-                href="https://www.linkedin.com/company/contentradar/"
+                href="https://www.instagram.com/contentradar.ai/"
                 target="_blank"
                 title="Instagram"
               >

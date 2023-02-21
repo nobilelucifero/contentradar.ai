@@ -21,9 +21,9 @@ export function Navbar({ children, message }) {
           "
               title="ContentRadar.ai"
             >
-              <Image width={48} height={48} src="/logo-v1.svg" alt=" "></Image>
-              <span className="sr-only lg:not-sr-only ml-[0.5ch]">
-                contentradar.ai
+              <Image width={48} height={48} src="/logo-v1.svg" alt=" " />{" "}
+              <span className="inline-block sr-only lg:not-sr-only ml-[1ch]">
+                &nbsp;contentradar.ai
               </span>
             </Link>
           </div>

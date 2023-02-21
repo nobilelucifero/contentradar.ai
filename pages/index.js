@@ -130,8 +130,8 @@ export default function Home() {
             </h1>
 
             <p className="mb-8 text-2xl lg:w-[96%]">
-              Boost content creation by 10x, know and learn more from your
-              audience, grow your business.
+              Boost content creation by 10x, learn more from your audience, grow
+              your business.
             </p>
 
             {/* <a

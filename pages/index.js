@@ -11,7 +11,7 @@ import { Button } from "../components/Button";
 // import BlurryBlobs from "../components/BlurryBlobs";
 
 import AppPreview from "../public/app-preview-2.png";
-import Bg from "../public/bg.png";
+import Bg from "../public/bg2-3.jpg";
 
 export default function Home() {
   // 1. Create a reference to the input so we can fetch/clear it's value.

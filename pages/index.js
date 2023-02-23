@@ -10,7 +10,7 @@ import Page from "../layouts/page";
 import { Button } from "../components/Button";
 // import BlurryBlobs from "../components/BlurryBlobs";
 
-import AppPreview from "../public/app-preview-2.png";
+import AppPreview from "../public/app-hero2-2x.png";
 import Bg from "../public/bg2-3.jpg";
 
 export default function Home() {
@@ -99,11 +99,8 @@ export default function Home() {
           absolute
           top-0
           left-0
-          0left-[1280px]
-          object-none
-          -translate-x-[1280px]
-          w-[2560px_!important] h-[1098px]
-          object
+          w-full h-auto
+          fill lg:object-fit
           opacity-0 animate-fade-in
         "
         width={2560}

@@ -18,13 +18,10 @@ export function Button({
     px-4 py-3
     bg-gray-900
     hover:bg-gray-800
-    0dark:bg-gray-50
-    0dark:hover:bg-gray-100
     focus:outline-none
     focus:ring-4
     focus:ring-blue-300
-    0dark:focus:ring-blue-500
-    ${" " + className}
+    ${className && className}
   `;
 
   if (href) {

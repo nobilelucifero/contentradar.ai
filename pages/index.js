@@ -10,8 +10,13 @@ import Page from "../layouts/page";
 import { Button } from "../components/Button";
 // import BlurryBlobs from "../components/BlurryBlobs";
 
-import AppPreview from "../public/preview-2-01.jpg";
+import AppPreview01 from "../public/preview-2-01.jpg";
+import AppPreview02 from "../public/preview-2-02.jpg";
+import AppPreview03 from "../public/preview-2-03.jpg";
 import Bg from "../public/bg2-3.jpg";
+import ImageSlider from "../components/ImageSlider";
+
+const images = [AppPreview01, AppPreview02, AppPreview03];
 
 export default function Home() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -185,16 +190,17 @@ export default function Home() {
               {message ? <p className="mt-2 text-sm">{message}</p> : ""}
             </form>
           </div>
-          <div className="0lg:pl-8 0lg:basis-2/4 mb-12 lg:mb-0 lg:w-1/2">
-            <Image
+          <div className="w-full mb-12 lg:mb-0 lg:w-1/2">
+            <ImageSlider images={images} />
+            {/* <Image
               className="block w-full xl:min-w-[112.5%] 2xl:min-w-[125%] drop-shadow-xl h-auto	shadow-[0_0_0_1px_rgba(0,0,0,0.08)] rounded-lg border-[rgba(0,0,0,0.08)] border-1
               "
               // width={1280}
               // height={1280}
-              src={AppPreview}
+              src={AppPreview01}
               alt=" "
               priority="true"
-            />
+            /> */}
           </div>
         </div>
       </Page>

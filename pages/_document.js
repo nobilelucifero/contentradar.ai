@@ -56,8 +56,8 @@ export default function Document() {
             }}
           />
         )}
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <meta content="width=device-width, initial-scale=1" name="viewport" /> */}
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -66,7 +66,7 @@ export default function Document() {
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"
           rel="stylesheet"
-        ></link>
+        /> */}
       </Head>
 
       {/* <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

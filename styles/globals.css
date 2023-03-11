@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-family: "Space Grotesk", system-ui, sans-serif;
+    font-feature-settings: "ss04" 1;
   }
   :root {
     color-scheme: light;
@@ -16,3 +17,107 @@ body {
   min-height: 100%;
   margin: 0;
 } */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Bold.eot");
+  src: url("../public/fonts/SpaceGrotesk-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Bold.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Bold.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Medium.eot");
+  src: url("../public/fonts/SpaceGrotesk-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Medium.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Medium.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Regular.eot");
+  src: url("../public/fonts/SpaceGrotesk-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Regular.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Light.eot");
+  src: url("../public/fonts/SpaceGrotesk-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Light.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Light.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Regular_1.eot");
+  src: url("../public/fonts/SpaceGrotesk-Regular_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Regular_1.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Regular_1.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Medium_1.eot");
+  src: url("../public/fonts/SpaceGrotesk-Medium_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Medium_1.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Medium_1.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Medium_1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Bold_1.eot");
+  src: url("../public/fonts/SpaceGrotesk-Bold_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Bold_1.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Bold_1.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Bold_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/fonts/SpaceGrotesk-Light_1.eot");
+  src: url("../public/fonts/SpaceGrotesk-Light_1.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/SpaceGrotesk-Light_1.woff2") format("woff2"),
+    url("../public/fonts/SpaceGrotesk-Light_1.woff") format("woff"),
+    url("../public/fonts/SpaceGrotesk-Light_1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
